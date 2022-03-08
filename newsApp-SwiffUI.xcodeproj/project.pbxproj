@@ -13,6 +13,8 @@
 		053C558827D7D1250089BFFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053C558727D7D1250089BFFF /* Preview Assets.xcassets */; };
 		053C559027D7D1B80089BFFF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C558F27D7D1B80089BFFF /* NetworkManager.swift */; };
 		053C559227D7D2A00089BFFF /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C559127D7D2A00089BFFF /* PostData.swift */; };
+		0599A4F027D8172B00143E97 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0599A4EF27D8172B00143E97 /* DetailView.swift */; };
+		0599A4F227D81CC200143E97 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0599A4F127D81CC200143E97 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		053C558727D7D1250089BFFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		053C558F27D7D1B80089BFFF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		053C559127D7D2A00089BFFF /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		0599A4EF27D8172B00143E97 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0599A4F127D81CC200143E97 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				053C558E27D7D1A20089BFFF /* Models */,
+				0599A4EE27D8171C00143E97 /* Views */,
 				053C558027D7D1220089BFFF /* newsApp_SwiffUIApp.swift */,
-				053C558227D7D1220089BFFF /* ContentView.swift */,
 				053C558427D7D1250089BFFF /* Assets.xcassets */,
 				053C558627D7D1250089BFFF /* Preview Content */,
 			);
@@ -79,6 +83,16 @@
 				053C559127D7D2A00089BFFF /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0599A4EE27D8171C00143E97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0599A4EF27D8172B00143E97 /* DetailView.swift */,
+				053C558227D7D1220089BFFF /* ContentView.swift */,
+				0599A4F127D81CC200143E97 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,8 @@
 				053C559027D7D1B80089BFFF /* NetworkManager.swift in Sources */,
 				053C559227D7D2A00089BFFF /* PostData.swift in Sources */,
 				053C558327D7D1220089BFFF /* ContentView.swift in Sources */,
+				0599A4F227D81CC200143E97 /* WebView.swift in Sources */,
+				0599A4F027D8172B00143E97 /* DetailView.swift in Sources */,
 				053C558127D7D1220089BFFF /* newsApp_SwiffUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
